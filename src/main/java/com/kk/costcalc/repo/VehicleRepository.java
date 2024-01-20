@@ -1,7 +1,7 @@
-package com.CBL.CostCalculator.repo;
+package com.kk.costcalc.repo;
 
-import com.CBL.CostCalculator.entity.Region;
-import com.CBL.CostCalculator.entity.Vehicle;
+import com.kk.costcalc.entity.Region;
+import com.kk.costcalc.entity.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

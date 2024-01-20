@@ -1,6 +1,5 @@
-package com.CBL.CostCalculator.dto;
+package com.kk.costcalc.dto;
 
-import com.CBL.CostCalculator.entity.Organization;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

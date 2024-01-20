@@ -1,10 +1,10 @@
-package com.CBL.CostCalculator.dtoMapper;
+package com.kk.costcalc.dtoMapper;
 
-import com.CBL.CostCalculator.dto.RegionRequest;
-import com.CBL.CostCalculator.dto.RegionResponse;
-import com.CBL.CostCalculator.entity.Organization;
-import com.CBL.CostCalculator.entity.Region;
-import com.CBL.CostCalculator.service.OrganizationService;
+import com.kk.costcalc.dto.RegionRequest;
+import com.kk.costcalc.dto.RegionResponse;
+import com.kk.costcalc.entity.Organization;
+import com.kk.costcalc.entity.Region;
+import com.kk.costcalc.service.OrganizationService;
 
 public class RegionDtoMapper {
 

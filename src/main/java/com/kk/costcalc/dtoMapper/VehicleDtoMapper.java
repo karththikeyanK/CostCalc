@@ -1,9 +1,9 @@
-package com.CBL.CostCalculator.dtoMapper;
+package com.kk.costcalc.dtoMapper;
 
-import com.CBL.CostCalculator.dto.VehicleRequest;
-import com.CBL.CostCalculator.dto.VehicleResponse;
-import com.CBL.CostCalculator.entity.Vehicle;
-import com.CBL.CostCalculator.service.RegionService;
+import com.kk.costcalc.dto.VehicleRequest;
+import com.kk.costcalc.dto.VehicleResponse;
+import com.kk.costcalc.entity.Vehicle;
+import com.kk.costcalc.service.RegionService;
 
 public class VehicleDtoMapper {
 

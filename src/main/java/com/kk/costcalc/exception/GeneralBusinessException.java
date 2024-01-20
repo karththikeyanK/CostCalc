@@ -1,4 +1,4 @@
-package com.CBL.CostCalculator.exception;
+package com.kk.costcalc.exception;
 
 public class GeneralBusinessException extends RuntimeException{
     public GeneralBusinessException(String message) {

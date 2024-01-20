@@ -1,12 +1,13 @@
-package com.CBL.CostCalculator.service;
+package com.kk.costcalc.service;
 
-import com.CBL.CostCalculator.dto.RegionRequest;
-import com.CBL.CostCalculator.dto.RegionResponse;
-import com.CBL.CostCalculator.dtoMapper.RegionDtoMapper;
-import com.CBL.CostCalculator.entity.Organization;
-import com.CBL.CostCalculator.entity.Region;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.repo.RegionRepository;
+import com.kk.costcalc.dto.RegionRequest;
+import com.kk.costcalc.dto.RegionResponse;
+import com.kk.costcalc.dtoMapper.RegionDtoMapper;
+import com.kk.costcalc.entity.Organization;
+import com.kk.costcalc.entity.Region;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.repo.RegionRepository;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

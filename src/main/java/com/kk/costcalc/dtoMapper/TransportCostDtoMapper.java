@@ -1,24 +1,18 @@
-package com.CBL.CostCalculator.dtoMapper;
+package com.kk.costcalc.dtoMapper;
 
-import com.CBL.CostCalculator.dto.CostRequest;
-import com.CBL.CostCalculator.dto.CostResponse;
-import com.CBL.CostCalculator.entity.Shop;
-import com.CBL.CostCalculator.entity.TransportCost;
-import com.CBL.CostCalculator.entity.TransportCostManger;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.service.ShopService;
-import com.CBL.CostCalculator.service.VehicleService;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.PersistenceContext;
-import jakarta.transaction.Transactional;
-import jdk.dynalink.linker.LinkerServices;
+import com.kk.costcalc.dto.CostRequest;
+import com.kk.costcalc.dto.CostResponse;
+import com.kk.costcalc.entity.Shop;
+import com.kk.costcalc.entity.TransportCost;
+import com.kk.costcalc.entity.TransportCostManger;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.service.ShopService;
+import com.kk.costcalc.service.VehicleService;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 @Slf4j

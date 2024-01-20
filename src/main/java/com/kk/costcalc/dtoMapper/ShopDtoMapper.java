@@ -1,9 +1,10 @@
-package com.CBL.CostCalculator.dtoMapper;
+package com.kk.costcalc.dtoMapper;
 
-import com.CBL.CostCalculator.dto.ShopRequest;
-import com.CBL.CostCalculator.dto.ShopResponse;
-import com.CBL.CostCalculator.entity.Shop;
-import com.CBL.CostCalculator.service.RegionService;
+import com.kk.costcalc.dto.ShopRequest;
+import com.kk.costcalc.dto.ShopResponse;
+import com.kk.costcalc.entity.Shop;
+import com.kk.costcalc.service.RegionService;
+
 
 public class ShopDtoMapper {
 

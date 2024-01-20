@@ -1,9 +1,10 @@
-package com.CBL.CostCalculator.controller;
+package com.kk.costcalc.controller;
 
 
-import com.CBL.CostCalculator.dto.OrganizationRequest;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.service.OrganizationService;
+
+import com.kk.costcalc.dto.OrganizationRequest;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.service.OrganizationService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

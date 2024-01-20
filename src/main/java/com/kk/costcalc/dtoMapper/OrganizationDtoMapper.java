@@ -1,9 +1,8 @@
-package com.CBL.CostCalculator.dtoMapper;
+package com.kk.costcalc.dtoMapper;
 
-import com.CBL.CostCalculator.dto.OrganizationRequest;
-import com.CBL.CostCalculator.dto.OrganizationResponse;
-import com.CBL.CostCalculator.entity.Organization;
-
+import com.kk.costcalc.dto.OrganizationRequest;
+import com.kk.costcalc.dto.OrganizationResponse;
+import com.kk.costcalc.entity.Organization;
 
 public class OrganizationDtoMapper {
 

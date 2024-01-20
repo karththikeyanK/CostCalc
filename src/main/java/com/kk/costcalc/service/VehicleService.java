@@ -1,12 +1,13 @@
 package com.kk.costcalc.service;
 
-import com.CBL.CostCalculator.dto.VehicleRequest;
-import com.CBL.CostCalculator.dto.VehicleResponse;
-import com.CBL.CostCalculator.dtoMapper.VehicleDtoMapper;
-import com.CBL.CostCalculator.entity.Region;
-import com.CBL.CostCalculator.entity.Vehicle;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.repo.VehicleRepository;
+
+import com.kk.costcalc.dto.VehicleRequest;
+import com.kk.costcalc.dto.VehicleResponse;
+import com.kk.costcalc.dtoMapper.VehicleDtoMapper;
+import com.kk.costcalc.entity.Region;
+import com.kk.costcalc.entity.Vehicle;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.repo.VehicleRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -43,7 +44,7 @@ public class VehicleService {
 
     }
 
-    public VehicleResponse updateVehicle( Integer id,VehicleRequest vehicleRequest) {
+    public VehicleResponse updateVehicle(Integer id, VehicleRequest vehicleRequest) {
         log.info("Vehicle Service::Updating vehicle started");
         try{
             Vehicle vehicle = vehicleRepository.findById(id).orElseThrow(() -> new GeneralBusinessException("Vehicle not found with id: " + id ));

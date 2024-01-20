@@ -1,10 +1,9 @@
-package com.CBL.CostCalculator.controller;
+package com.kk.costcalc.controller;
 
-import com.CBL.CostCalculator.dto.CostRequest;
-import com.CBL.CostCalculator.dto.CostResponse;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.service.TransportCostService;
-
+import com.kk.costcalc.dto.CostRequest;
+import com.kk.costcalc.dto.CostResponse;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.service.TransportCostService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

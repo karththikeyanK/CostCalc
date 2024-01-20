@@ -1,16 +1,15 @@
-package com.CBL.CostCalculator.service;
+package com.kk.costcalc.service;
 
-import com.CBL.CostCalculator.dto.ShopRequest;
-import com.CBL.CostCalculator.dto.ShopResponse;
-import com.CBL.CostCalculator.dtoMapper.ShopDtoMapper;
-import com.CBL.CostCalculator.entity.Region;
-import com.CBL.CostCalculator.entity.Shop;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.repo.RegionRepository;
+import com.kk.costcalc.dto.ShopRequest;
+import com.kk.costcalc.dto.ShopResponse;
+import com.kk.costcalc.dtoMapper.ShopDtoMapper;
+import com.kk.costcalc.entity.Region;
+import com.kk.costcalc.entity.Shop;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.repo.ShopRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.CBL.CostCalculator.repo.ShopRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

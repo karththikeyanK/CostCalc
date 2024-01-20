@@ -1,11 +1,12 @@
-package com.CBL.CostCalculator.service;
+package com.kk.costcalc.service;
 
-import com.CBL.CostCalculator.dto.OrganizationRequest;
-import com.CBL.CostCalculator.dto.OrganizationResponse;
-import com.CBL.CostCalculator.dtoMapper.OrganizationDtoMapper;
-import com.CBL.CostCalculator.entity.Organization;
-import com.CBL.CostCalculator.exception.GeneralBusinessException;
-import com.CBL.CostCalculator.repo.OrganizationRepository;
+
+import com.kk.costcalc.dto.OrganizationRequest;
+import com.kk.costcalc.dto.OrganizationResponse;
+import com.kk.costcalc.dtoMapper.OrganizationDtoMapper;
+import com.kk.costcalc.entity.Organization;
+import com.kk.costcalc.exception.GeneralBusinessException;
+import com.kk.costcalc.repo.OrganizationRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

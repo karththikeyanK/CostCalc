@@ -1,4 +1,4 @@
-package com.CBL.CostCalculator.dto;
+package com.kk.costcalc.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

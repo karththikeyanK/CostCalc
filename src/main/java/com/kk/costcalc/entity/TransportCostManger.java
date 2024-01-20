@@ -1,4 +1,4 @@
-package com.CBL.CostCalculator.entity;
+package com.kk.costcalc.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
