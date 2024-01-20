@@ -12,7 +12,7 @@ To get started with CostCalc, follow these steps:
 
 1. Clone the repository:
      ```shell
-     git clone https://github.com/your-username/CostCalc.git
+     git clone https://github.com/karththikeyanK/CostCalc.git
      ```
 
 2. Build the project using Maven:
